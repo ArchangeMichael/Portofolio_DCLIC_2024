@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="color-1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <!-- Changeur de style -->
+    <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled />
+    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled />
+    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled />
+    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled />
+    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled />
+    <link rel="stylesheet" href="style-switcher.css" />
+  </head>
+  <body>
+    <div class="main-container">
+        <div class="aside">
+          <div class="logo">
+            <a href="#"><span>P</span>rofil</a>
+          </div>
+          <div class="nav-toggler">
+            <span> </span>
+          </div>
+          <ul class="nav">
+            <li><a href="index.html" ><i class="fa fa-home"></i>Accueil</a></li>
+            <li><a href="about.html" ><i class="fa fa-user"></i>À propos</a></li>
+            <li><a href="services.html" class="active"><i class="fa fa-list"></i>Services</a></li>
+            <li><a href="portfolio.html"><i class="fa fa-briefcase"></i>Portofolio</a></li>
+            <li><a href="contact.html"><i class="fa fa-comments"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class="main-content">
+
+    <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-tittle padd-15">
+              <h2>Service</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-laptop-code"></i>
+                </div>
+                <h4>Consultation en Ingénierie Environnementale</h4>
+                <p>Évaluation d'impact environnemental : Réalisation d'études pour évaluer les effets de projets sur l'environnement et proposer des mesures d'atténuation.</p>
+                <p>Gestion des ressources naturelles : Élaboration de stratégies pour une utilisation durable des ressources, avec un focus sur la conservation et la restauration des écosystèmes.</p>
+                <p>Sensibilisation communautaire : Organisation d'ateliers et de sessions de formation pour impliquer les communautés locales dans la préservation de l'environnement.</p>
+               
+              </div>
+            </div>
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-palette"></i>
+                </div>
+                <h4>Projets Personnalisés et Intégration Technologique</h4>
+                <p>IoT et Smart Solutions : Mise en place de systèmes basés sur l'Internet des objets pour surveiller et gérer les ressources environnementales.</p>
+                <p>Analyse de données : Utilisation de big data et d'intelligence artificielle pour optimiser la gestion des ressources naturelles et les politiques climatiques.</p>
+              </div>
+            </div>
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-code"></i>
+                </div>
+                <h4>Développement Web & Applications</h4>
+                <p>Création de sites web : Conception et développement de sites web adaptatifs et conviviaux pour répondre aux besoins spécifiques des clients.</p>
+                <p>Développement d'applications web : Élaboration d'applications interactives et fonctionnelles, intégrant des technologies modernes telles que React, Angular, et Python.</p>
+                <p>Éco-conception : Optimisation de la performance des sites et applications pour réduire l'empreinte carbone, avec un focus sur l'ergonomie et l'expérience utilisateur.</p>
+              </div>
+            </div>
+            
+      </section>
+<!-- Début style switcer  -->
+<div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas"></i>
+    </div>
+    <h4>Couleurs du Thème</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+    </div>
+    <!-- Fin style switcer -->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+        <script src="style-switcher.js"></script>
+</body>
+  </html>

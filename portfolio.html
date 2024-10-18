@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="color-1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <!-- Changeur de style -->
+    <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled />
+    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled />
+    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled />
+    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled />
+    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled />
+    <link rel="stylesheet" href="style-switcher.css" />
+  </head>
+
+<body>
+    
+
+<div class="main-container">
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>P</span>rofil</a>
+      </div>
+      <div class="nav-toggler">
+        <span> </span>
+      </div>
+      <ul class="nav">
+        <li><a href="index.html" ><i class="fa fa-home"></i>Accueil</a></li>
+        <li><a href="about.html" ><i class="fa fa-user"></i>À propos</a></li>
+        <li><a href="services.html"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="portfolio.html" class="active"><i class="fa fa-briefcase"></i>Portofolio</a></li>
+        <li><a href="contact.html"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+        <section class="portofolio section" id="portofolio">
+            <div class="container">
+              <div class="row">
+                <div class="section-tittle padd-15">
+                  <h2>Portofolio</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="portofolio-heading padd-15">
+                  <h2>Mes Projets</h2>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Début du Portofolio  -->
+                <div class="portofolio-item padd-15">
+                  <div class="portofolio-item-inner shadow-dark">
+                    <div class="portofolio-img">
+                      <img src="pot1.jpg" alt="Impact des drones sur la gestion durable des forêts" />
+                    <p>Projet : Impact des drones sur la gestion durable des forêts</p>
+  
+                      <p>Ce projet explore l'intégration des drones dans la gestion des forêts pour améliorer la collecte de données environnementales. Grâce à leurs capacités de surveillance aérienne, les drones permettent une cartographie précise de l'occupation des sols, une surveillance continue de la biodiversité, et une évaluation efficace des dégradations forestières. Ils facilitent également le suivi des projets de reforestation et de restauration écologique, tout en réduisant les coûts associés aux méthodes traditionnelles d'inventaire. Ce projet offre aux gestionnaires forestiers une vision globale et actualisée, permettant une prise de décision éclairée pour la conservation et la gestion durable des écosystèmes.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portofolio-item padd-15">
+                  <div class="portofolio-item-inner shadow-dark">
+                    <div class="portofolio-img">
+                      <img src="pot2.jpeg" alt="Développement web écologique et durable" />
+                      <p>Projet : Développement web écologique et durable</p>
+                      <p>Ce projet explore les pratiques innovantes de développement web en réponse aux défis environnementaux. Face à l'importance croissante de l'éco-conception, les développeurs sont incités à réduire l'empreinte carbone numérique en créant des applications plus légères et moins énergivores. Des techniques et outils sont mis en avant pour optimiser la performance tout en minimisant la consommation énergétique.
+  
+                        Le projet aborde également l'utilisation d'architectures durables, telles que les progressive web apps (PWA), qui consomment moins de données et d'énergie, ainsi que l'adoption du cloud computing vert. Enfin, des conseils pratiques sont fournis pour optimiser l'interface utilisateur (UI/UX), offrant une expérience à la fois fluide et respectueuse de l'environnement.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portofolio-item padd-15">
+                  <div class="portofolio-item-inner shadow-dark">
+                    <div class="portofolio-img">
+                      <img src="pot3.png" alt="Innovations technologiques pour la durabilité environnementale" />
+                      <p>Projet : Innovations technologiques pour la durabilité environnementale </p>
+  
+                      <p> Ce projet explore l'utilisation de technologies innovantes pour renforcer la durabilité environnementale. Nous examinons l'intégration des capteurs IoT et des systèmes d'irrigation intelligents, qui optimisent l'utilisation de l'eau en agriculture durable, ainsi que l'adoption des énergies renouvelables pour réduire les émissions de carbone.
+                        
+                        Nous mettons également en avant l'application de l'intelligence artificielle (IA) dans la gestion des ressources naturelles et l'utilisation des big data pour affiner les politiques climatiques. À travers des études de cas, ces innovations démontrent leur efficacité à réduire les impacts environnementaux tout en améliorant les conditions de vie des communautés locales, illustrant ainsi le potentiel des technologies au service de la nature.</p>
+                      
+  
+                    </div>
+                  </div>
+                </div>
+                <!--Fin du  Portofolio -->
+              </div>
+            </div>
+          </section>
+<!-- Début style switcer  -->
+<div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas"></i>
+    </div>
+    <h4>Couleurs du Thème</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+    </div>
+    <!-- Fin style switcer -->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+        <script src="style-switcher.js"></script>
+</body>
+    </html>

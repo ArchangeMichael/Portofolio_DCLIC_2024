@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="color-1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <!-- Changeur de style -->
+    <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled />
+    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled />
+    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled />
+    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled />
+    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled />
+    <link rel="stylesheet" href="style-switcher.css" />
+  </head>
+<body>
+    <div class="main-container">
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>P</span>rofil</a>
+      </div>
+      <div class="nav-toggler">
+        <span> </span>
+      </div>
+      <ul class="nav">
+        <li><a href="index.html" ><i class="fa fa-home"></i>Accueil</a></li>
+        <li><a href="about.html" ><i class="fa fa-user"></i>À propos</a></li>
+        <li><a href="services.html"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="portfolio.html"><i class="fa fa-briefcase"></i>Portofolio</a></li>
+        <li><a href="contact.html" class="active"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+
+
+    </body>
+  <!-- Début section contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-tittle padd-15">
+          <h2>Me Contacter</h2>
+        </div>
+      </div>
+      <h3 class="contact-tittle padd-15">Vous avez une Question?</h3>
+      <h4 class="contact-sub-tittle padd-15">Je suis là pour vous aider.</h4>
+      <div class="row">
+        <!-- Élément d'information de contact Début -->
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-phone"></i></div>
+          <h4>Appelez-Moi sur le </h4>
+          <p>(+229) 97-847-789</p>
+        </div>
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+          <h4>Localisation</h4>
+          <p>Cotonou</p>
+        </div>
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-envelope"></i></div>
+          <h4>Email</h4>
+          <p>houmichey@gmail.com</p>
+        </div>
+        <div class="contact-info-item padd-15">
+          <div class="icon"><i class="fa fa-globe-europe"></i></div>
+          <h4>Linkedin</h4>
+          <p>sena-fenu</p>
+        </div>
+        <!-- Élément d'information de contact Fin -->
+      </div>
+      <h3 class="contact-tittle padd-15">Envoyez Moi un email</h3>
+      <h4 class="contact-sub-tittle padd-15">à votre service</h4>
+      <!-- Formulaire de contact -->
+      <div class="row">
+        <div class="contact-form padd-15">
+          <div class="row">
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nom" />
+              </div>
+            </div>
+            <div class="form-item col-6 padd-15">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Objet" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+                <textarea name="" class="form-control" placeholder="Message" id=""></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-item col-12 padd-15">
+              <div class="form-group">
+                <button type="submit" class="btn">Envoyer le message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin section contact -->
+</div>
+</div>
+<!-- Début style switcer  -->
+<div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas"></i>
+    </div>
+    <h4>Couleurs du Thème</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+    </div>
+    <!-- Fin style switcer -->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+        <script src="style-switcher.js"></script>
+</body>
+    </html>
